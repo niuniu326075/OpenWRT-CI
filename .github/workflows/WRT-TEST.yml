@@ -26,7 +26,7 @@ on:
           - TEST
           - X86
       SOURCE:
-        default: 'VIKINGYFY/immortalwrt'
+        default: 'niuniu326075/immortalwrt'
         required: true
         type: choice
         options:
@@ -34,6 +34,7 @@ on:
           - immortalwrt/immortalwrt
           - LiBwrt/openwrt-6.x
           - qosmio/openwrt-ipq
+          - niuniu326075/immortalwrt
       BRANCH:
         default: 'main'
         required: true
